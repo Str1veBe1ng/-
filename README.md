@@ -1,18 +1,18 @@
-# 🏰 StudyTrojan - 网络安全底层技术全栈学习路线
+# 🏰 StudyTrojan - 超硬核底层技术全家桶 🚀💥
 
-## � 项目简介
+宝子们！今天给大家整理了一份**超全的底层技术学习路线**！📚✨
+无论你是刚入门的小白，还是想进阶的大佬，这份【StudyTrojan】资料库绝对能帮你打通任督二脉！💪
 
-本项目是一个系统性的网络安全与底层技术学习资源库，涵盖了从C/C++编程基础、汇编语言、逆向工程、Windows编程、内核安全、网络编程、PE结构、壳与脱壳、Shellcode开发、免杀技术到CobaltStrike和提权等全方位的技术体系。
+这里涵盖了 **C/C++、汇编、逆向、Windows内核、免杀、提权** 等硬核内容，干货满满，建议**收藏**慢慢啃！💖
 
 ---
 
-## � 课程目录导航
+## 📂 课程目录直达
 
-### 01. 编程基础与逆向工程
+👇 点击下方文件夹即可展开查看详细课时哦！
 
 <details>
-<summary><b>� 01_C&C++快速入门</b></summary>
-
+<summary><b>💻 01_C&C++快速入门</b></summary>
 
 - [课时01_Windows环境配置.md](./01_C%26C%2B%2B快速入门/课时01_Windows环境配置.md)
 - [课时02_Linux环境配置.md](./01_C%26C%2B%2B快速入门/课时02_Linux环境配置.md)
@@ -38,11 +38,10 @@
 - [课时22_继承.md](./01_C%26C%2B%2B快速入门/课时22_继承.md)
 - [课时23_异常.md](./01_C%26C%2B%2B快速入门/课时23_异常.md)
 - [课时24_阶段合集.md](./01_C%26C%2B%2B快速入门/课时24_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 02_x86_64架构汇编语言</b></summary>
-
+<summary><b>⚙️ 02_x86_64架构汇编语言</b></summary>
 
 - [课时01_汇编的概念与常用寄存器.md](./02_x86_64架构汇编语言/课时01_汇编的概念与常用寄存器.md)
 - [课时02_x86汇编框架.md](./02_x86_64架构汇编语言/课时02_x86汇编框架.md)
@@ -58,11 +57,10 @@
 - [课时12_内联汇编与混合编程.md](./02_x86_64架构汇编语言/课时12_内联汇编与混合编程.md)
 - [课时13_Linux汇编框架与系统调用.md](./02_x86_64架构汇编语言/课时13_Linux汇编框架与系统调用.md)
 - [课时14_阶段合集.md](./02_x86_64架构汇编语言/课时14_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>� 03_C&C++软件逆向技术</b></summary>
-
+<summary><b>🔍 03_C&C++软件逆向技术</b></summary>
 
 - [课时01_分析定位目标功能.md](./03_C%26C%2B%2B软件逆向技术/课时01_分析定位目标功能.md)
 - [课时02_函数调用约定.md](./03_C%26C%2B%2B软件逆向技术/课时02_函数调用约定.md)
@@ -73,13 +71,10 @@
 - [课时07_类与对象识别分析.md](./03_C%26C%2B%2B软件逆向技术/课时07_类与对象识别分析.md)
 - [课时08_构造函数与析构函数识别分析.md](./03_C%26C%2B%2B软件逆向技术/课时08_构造函数与析构函数识别分析.md)
 - [课时09_阶段合集.md](./03_C%26C%2B%2B软件逆向技术/课时09_阶段合集.md)
-  </details>
-
-### 02. Windows系统编程
+</details>
 
 <details>
-<summary><b>📂 04_Win32编程</b></summary>
-
+<summary><b>🪟 04_Win32编程</b></summary>
 
 - [课时01_消息机制.md](./04_Win32编程/课时01_消息机制.md)
 - [课时02_文件与目录.md](./04_Win32编程/课时02_文件与目录.md)
@@ -92,11 +87,10 @@
 - [课时09_注册表.md](./04_Win32编程/课时09_注册表.md)
 - [课时10_窗口操作.md](./04_Win32编程/课时10_窗口操作.md)
 - [课时11_阶段合集.md](./04_Win32编程/课时11_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 05_进程通信专题</b></summary>
-
+<summary><b>� 05_进程通信专题</b></summary>
 
 - [课时01_邮槽.md](./05_进程通信专题/课时01_邮槽.md)
 - [课时02_管道.md](./05_进程通信专题/课时02_管道.md)
@@ -104,11 +98,10 @@
 - [课时04_WM_COPYDATA.md](./05_进程通信专题/课时04_WM_COPYDATA.md)
 - [课时05_文件映射.md](./05_进程通信专题/课时05_文件映射.md)
 - [课时06_阶段合集.md](./05_进程通信专题/课时06_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 06_Windows内核安全</b></summary>
-
+<summary><b>�️ 06_Windows内核安全</b></summary>
 
 - [课时01_配置双机调试环境.md](./06_Windows内核安全/课时01_配置双机调试环境.md)
 - [课时02_第一个驱动程序.md](./06_Windows内核安全/课时02_第一个驱动程序.md)
@@ -125,11 +118,10 @@
 - [课时13_系统调用.md](./06_Windows内核安全/课时13_系统调用.md)
 - [课时14_SSDT_Hook.md](./06_Windows内核安全/课时14_SSDT_Hook.md)
 - [课时15_阶段合集.md](./06_Windows内核安全/课时15_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>� 07_Windows网络编程</b></summary>
-
+<summary><b>🌐 07_Windows网络编程</b></summary>
 
 - [课时01_主机相关网络信息编程.md](./07_Windows网络编程/课时01_主机相关网络信息编程.md)
 - [课时02_TCP套接字编程与主机上线实验.md](./07_Windows网络编程/课时02_TCP套接字编程与主机上线实验.md)
@@ -146,13 +138,10 @@
 - [课时13_重叠IO模型.md](./07_Windows网络编程/课时13_重叠IO模型.md)
 - [课时14_IOCP完成端口.md](./07_Windows网络编程/课时14_IOCP完成端口.md)
 - [课时15_阶段合集.md](./07_Windows网络编程/课时15_阶段合集.md)
-  </details>
-
-### 03. PE文件与加壳脱壳
+</details>
 
 <details>
-<summary><b>� 08_Windows_PE结构</b></summary>
-
+<summary><b>📦 08_Windows_PE结构</b></summary>
 
 - [课时01_Windows_PE文件基础知识.md](./08_Windows_PE结构/课时01_Windows_PE文件基础知识.md)
 - [课时02_PE文件头解析.md](./08_Windows_PE结构/课时02_PE文件头解析.md)
@@ -162,11 +151,10 @@
 - [课时06_资源表解析.md](./08_Windows_PE结构/课时06_资源表解析.md)
 - [课时07_重定位表解析.md](./08_Windows_PE结构/课时07_重定位表解析.md)
 - [课时08_阶段合集.md](./08_Windows_PE结构/课时08_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 09_加密壳</b></summary>
-
+<summary><b>� 09_加密壳</b></summary>
 
 - [课时01_加密壳原理.md](./09_加密壳/课时01_加密壳原理.md)
 - [课时02_动态获取Kernel32的地址.md](./09_加密壳/课时02_动态获取Kernel32的地址.md)
@@ -176,13 +164,10 @@
 - [课时06_获取壳代码段数据并修复重定位.md](./09_加密壳/课时06_获取壳代码段数据并修复重定位.md)
 - [课时07_添加区段完成加壳流程.md](./09_加密壳/课时07_添加区段完成加壳流程.md)
 - [课时08_阶段合集.md](./09_加密壳/课时08_阶段合集.md)
-  </details>
-
-### 04. Shellcode与漏洞开发
+</details>
 
 <details>
-<summary><b>📂 10_shellcode开发技术</b></summary>
-
+<summary><b>� 10_shellcode开发技术</b></summary>
 
 - [课时01_shellcode的概念.md](./10_shellcode开发技术/课时01_shellcode的概念.md)
 - [课时02_动态获取kernel32dll地址.md](./10_shellcode开发技术/课时02_动态获取kernel32dll地址.md)
@@ -191,11 +176,10 @@
 - [课时05_x64shellcode框架.md](./10_shellcode开发技术/课时05_x64shellcode框架.md)
 - [课时06_shellcode精简字节数.md](./10_shellcode开发技术/课时06_shellcode精简字节数.md)
 - [课时07_阶段合集.md](./10_shellcode开发技术/课时07_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 11_shellcode_loader</b></summary>
-
+<summary><b>� 11_shellcode_loader</b></summary>
 
 - [课时01_C++内联汇编实现shellcode_loader.md](./11_shellcode_loader/课时01_C%2B%2B内联汇编实现shellcode_loader.md)
 - [课时02_C++函数指针实现shellcode_loader.md](./11_shellcode_loader/课时02_C%2B%2B函数指针实现shellcode_loader.md)
@@ -212,13 +196,10 @@
 - [课时13_C++SEH实现shellcode_loader.md](./11_shellcode_loader/课时13_C%2B%2BSEH实现shellcode_loader.md)
 - [课时14_C++CallBack实现shellcode_loader.md](./11_shellcode_loader/课时14_C%2B%2BCallBack实现shellcode_loader.md)
 - [课时15_阶段合集.md](./11_shellcode_loader/课时15_阶段合集.md)
-  </details>
-
-### 05. 攻防对抗与免杀
+</details>
 
 <details>
-<summary><b>📂 12_远程控制开发基础</b></summary>
-
+<summary><b>�️ 12_远程控制开发基础</b></summary>
 
 - [课时01_通信架构与客户端上线功能.md](./12_远程控制开发基础/课时01_通信架构与客户端上线功能.md)
 - [课时02_客户端进程信息获取.md](./12_远程控制开发基础/课时02_客户端进程信息获取.md)
@@ -227,11 +208,10 @@
 - [课时05_主控端文件下发到被控端.md](./12_远程控制开发基础/课时05_主控端文件下发到被控端.md)
 - [课时06_远程SHELL执行并回显.md](./12_远程控制开发基础/课时06_远程SHELL执行并回显.md)
 - [课时07_阶段合集.md](./12_远程控制开发基础/课时07_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 13_安全开发专题</b></summary>
-
+<summary><b>�️ 13_安全开发专题</b></summary>
 
 - [课时01_自启动.md](./13_安全开发专题/课时01_自启动.md)
 - [课时02_自删除.md](./13_安全开发专题/课时02_自删除.md)
@@ -240,22 +220,20 @@
 - [课时05_屏幕截屏.md](./13_安全开发专题/课时05_屏幕截屏.md)
 - [课时06_令牌提权.md](./13_安全开发专题/课时06_令牌提权.md)
 - [课时07_阶段合集.md](./13_安全开发专题/课时07_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 14_Inject专题</b></summary>
-
+<summary><b>� 14_Inject专题</b></summary>
 
 - [课时01_远程线程注入.md](./14_Inject专题/课时01_远程线程注入.md)
 - [课时02_劫持进程注入.md](./14_Inject专题/课时02_劫持进程注入.md)
 - [课时03_消息钩子注入.md](./14_Inject专题/课时03_消息钩子注入.md)
 - [课时04_UserAPC注入.md](./14_Inject专题/课时04_UserAPC注入.md)
 - [课时05_阶段合集.md](./14_Inject专题/课时05_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 15_HOOK专题</b></summary>
-
+<summary><b>🎣 15_HOOK专题</b></summary>
 
 - [课时01_InlineHook.md](./15_HOOK专题/课时01_InlineHook.md)
 - [课时02_x64InlineHook.md](./15_HOOK专题/课时02_x64InlineHook.md)
@@ -264,11 +242,10 @@
 - [课时05_VEH_INT3Hook.md](./15_HOOK专题/课时05_VEH_INT3Hook.md)
 - [课时06_VEH_DRRegHook.md](./15_HOOK专题/课时06_VEH_DRRegHook.md)
 - [课时07_阶段合集.md](./15_HOOK专题/课时07_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 16_Anti_Debug专题</b></summary>
-
+<summary><b>�️ 16_Anti_Debug专题</b></summary>
 
 - [课时01_IsDebuggerPresent.md](./16_Anti_Debug专题/课时01_IsDebuggerPresent.md)
 - [课时02_自实现IsDebuggerPresent.md](./16_Anti_Debug专题/课时02_自实现IsDebuggerPresent.md)
@@ -299,11 +276,10 @@
 - [课时27_通过Crc32校验代码段检测调试器.md](./16_Anti_Debug专题/课时27_通过Crc32校验代码段检测调试器.md)
 - [课时28_通过Tls机制检测调试器.md](./16_Anti_Debug专题/课时28_通过Tls机制检测调试器.md)
 - [课时29_阶段合集.md](./16_Anti_Debug专题/课时29_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>📂 17_Anti_VM专题</b></summary>
-
+<summary><b>🤖 17_Anti_VM专题</b></summary>
 
 - [课时01_通过Mac地址检测虚拟机.md](./17_Anti_VM专题/课时01_通过Mac地址检测虚拟机.md)
 - [课时02_通过进程信息检测虚拟机.md](./17_Anti_VM专题/课时02_通过进程信息检测虚拟机.md)
@@ -313,11 +289,33 @@
 - [课时06_通过IO端口检测虚拟机.md](./17_Anti_VM专题/课时06_通过IO端口检测虚拟机.md)
 - [课时07_通过社会工程学检测虚拟机.md](./17_Anti_VM专题/课时07_通过社会工程学检测虚拟机.md)
 - [课时08_阶段合集.md](./17_Anti_VM专题/课时08_阶段合集.md)
-  </details>
+</details>
 
 <details>
-<summary><b>� 20_免杀专题</b></summary>
+<summary><b>⚔️ 18_CobaltStrike专题</b></summary>
 
+- [课时01_CobaltStrike的安装与启动.md](./18_CobaltStrike专题/课时01_CobaltStrike的安装与启动.md)
+- [课时02_CobaltStrike界面介绍.md](./18_CobaltStrike专题/课时02_CobaltStrike界面介绍.md)
+- [课时03_创建监听器与Attacks.md](./18_CobaltStrike专题/课时03_创建监听器与Attacks.md)
+</details>
+
+<details>
+<summary><b>🔑 19_提权专题</b></summary>
+
+- [课时01_Linux内核漏洞提权.md](./19_提权专题/课时01_Linux内核漏洞提权.md)
+- [课时02_SUID提权.md](./19_提权专题/课时02_SUID提权.md)
+- [课时03_SUDO提权.md](./19_提权专题/课时03_SUDO提权.md)
+- [课时04_john碰撞密码提权.md](./19_提权专题/课时04_john碰撞密码提权.md)
+- [课时05_passwd提权.md](./19_提权专题/课时05_passwd提权.md)
+- [课时06_Windows提权基础.md](./19_提权专题/课时06_Windows提权基础.md)
+- [课时07_提权信息收集.md](./19_提权专题/课时07_提权信息收集.md)
+- [课时08_Windows内核提权.md](./19_提权专题/课时08_Windows内核提权.md)
+- [课时09_Windows_Print_Spooler漏洞提权.md](./19_提权专题/课时09_Windows_Print_Spooler漏洞提权.md)
+- [课时10_土豆提权.md](./19_提权专题/课时10_土豆提权.md)
+</details>
+
+<details>
+<summary><b>👻 20_免杀专题</b></summary>
 
 - [课时01_R3进程伪装.md](./20_免杀专题/课时01_R3进程伪装.md)
 - [课时02_栈溢出调用CALL.md](./20_免杀专题/课时02_栈溢出调用CALL.md)
@@ -360,35 +358,9 @@
 - [课时39_补充异常ShellCode加载和反调试方法.md](./20_免杀专题/课时39_补充异常ShellCode加载和反调试方法.md)
 - [课时40_基础补充ShellCode加载方式.md](./20_免杀专题/课时40_基础补充ShellCode加载方式.md)
 - [课时41_基础补充ShellCode加载方式.md](./20_免杀专题/课时41_基础补充ShellCode加载方式.md)
-  </details>
-
-### 06. 渗透测试与提权
-
-<details>
-<summary><b>📂 18_CobaltStrike专题</b></summary>
-
-
-- [课时01_CobaltStrike的安装与启动.md](./18_CobaltStrike专题/课时01_CobaltStrike的安装与启动.md)
-- [课时02_CobaltStrike界面介绍.md](./18_CobaltStrike专题/课时02_CobaltStrike界面介绍.md)
-- [课时03_创建监听器与Attacks.md](./18_CobaltStrike专题/课时03_创建监听器与Attacks.md)
-  </details>
-
-<details>
-<summary><b>📂 19_提权专题</b></summary>
-
-
-- [课时01_Linux内核漏洞提权.md](./19_提权专题/课时01_Linux内核漏洞提权.md)
-- [课时02_SUID提权.md](./19_提权专题/课时02_SUID提权.md)
-- [课时03_SUDO提权.md](./19_提权专题/课时03_SUDO提权.md)
-- [课时04_john碰撞密码提权.md](./19_提权专题/课时04_john碰撞密码提权.md)
-- [课时05_passwd提权.md](./19_提权专题/课时05_passwd提权.md)
-- [课时06_Windows提权基础.md](./19_提权专题/课时06_Windows提权基础.md)
-- [课时07_提权信息收集.md](./19_提权专题/课时07_提权信息收集.md)
-- [课时08_Windows内核提权.md](./19_提权专题/课时08_Windows内核提权.md)
-- [课时09_Windows_Print_Spooler漏洞提权.md](./19_提权专题/课时09_Windows_Print_Spooler漏洞提权.md)
-- [课时10_土豆提权.md](./19_提权专题/课时10_土豆提权.md)
-  </details>
+</details>
 
 ---
-
 > Generated by StudyTrojan Helper
+
+#网络安全 #黑客技术 #渗透测试 #C语言 #汇编语言 #逆向工程 #内核开发 #免杀 #提权 #程序员 #干货分享 #学习路线
