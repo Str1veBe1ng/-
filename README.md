@@ -1,18 +1,19 @@
-# 🏰 StudyTrojan - 超硬核底层技术全家桶 🚀💥
+# 😈 免杀远控开发：从入门到精通全栈指南 🚀
 
-宝子们！今天给大家整理了一份**超全的底层技术学习路线**！📚✨
-无论你是刚入门的小白，还是想进阶的大佬，这份【StudyTrojan】资料库绝对能帮你打通任督二脉！💪
+宝子们！想自己手写远控？想搞定FUD（免杀）？别再到处找零散教程啦！�‍♂️
+这份 **StudyTrojan** 项目就是为你准备的 **从0到1黑客开发圣经**！�✨
 
-这里涵盖了 **C/C++、汇编、逆向、Windows内核、免杀、提权** 等硬核内容，干货满满，建议**收藏**慢慢啃！💖
+这是一条完整的**红队开发（Red Team Development）**学习路线：
+从 **C/C++基础** 开始，深入 **汇编与逆向**，搞懂 **Windows内核与PE结构**，最后掌握 **Shellcode编写、注入技术、Anti-Debug** 以及终极的 **免杀绕过**！�
+
+👇 **按照目录顺序学完，你也能手搓核弹级远控！**
 
 ---
 
-## 📂 课程目录直达
-
-👇 点击下方文件夹即可展开查看详细课时哦！
+## 📂 学习路线目录（点击展开）
 
 <details>
-<summary><b>💻 01_C&C++快速入门</b></summary>
+<summary><b>💻 01_C&C++快速入门</b> (打好地基，万丈高楼平地起)</summary>
 
 - [课时01_Windows环境配置.md](./01_C%26C%2B%2B快速入门/课时01_Windows环境配置.md)
 - [课时02_Linux环境配置.md](./01_C%26C%2B%2B快速入门/课时02_Linux环境配置.md)
@@ -41,7 +42,7 @@
 </details>
 
 <details>
-<summary><b>⚙️ 02_x86_64架构汇编语言</b></summary>
+<summary><b>⚙️ 02_x86_64架构汇编语言</b> (底层视角，理解机器的语言)</summary>
 
 - [课时01_汇编的概念与常用寄存器.md](./02_x86_64架构汇编语言/课时01_汇编的概念与常用寄存器.md)
 - [课时02_x86汇编框架.md](./02_x86_64架构汇编语言/课时02_x86汇编框架.md)
@@ -60,7 +61,7 @@
 </details>
 
 <details>
-<summary><b>🔍 03_C&C++软件逆向技术</b></summary>
+<summary><b>🔍 03_C&C++软件逆向技术</b> (知己知彼，分析目标程序)</summary>
 
 - [课时01_分析定位目标功能.md](./03_C%26C%2B%2B软件逆向技术/课时01_分析定位目标功能.md)
 - [课时02_函数调用约定.md](./03_C%26C%2B%2B软件逆向技术/课时02_函数调用约定.md)
@@ -74,7 +75,7 @@
 </details>
 
 <details>
-<summary><b>🪟 04_Win32编程</b></summary>
+<summary><b>🪟 04_Win32编程</b> (掌握Windows API，控制系统核心)</summary>
 
 - [课时01_消息机制.md](./04_Win32编程/课时01_消息机制.md)
 - [课时02_文件与目录.md](./04_Win32编程/课时02_文件与目录.md)
@@ -90,7 +91,7 @@
 </details>
 
 <details>
-<summary><b>� 05_进程通信专题</b></summary>
+<summary><b>📫 05_进程通信专题</b> (进程间的数据桥梁)</summary>
 
 - [课时01_邮槽.md](./05_进程通信专题/课时01_邮槽.md)
 - [课时02_管道.md](./05_进程通信专题/课时02_管道.md)
@@ -101,7 +102,7 @@
 </details>
 
 <details>
-<summary><b>�️ 06_Windows内核安全</b></summary>
+<summary><b>🛡️ 06_Windows内核安全</b> (R0级操作，Rootkit基础)</summary>
 
 - [课时01_配置双机调试环境.md](./06_Windows内核安全/课时01_配置双机调试环境.md)
 - [课时02_第一个驱动程序.md](./06_Windows内核安全/课时02_第一个驱动程序.md)
@@ -121,7 +122,7 @@
 </details>
 
 <details>
-<summary><b>🌐 07_Windows网络编程</b></summary>
+<summary><b>🌐 07_Windows网络编程</b> (手写C2通信，Socket编程)</summary>
 
 - [课时01_主机相关网络信息编程.md](./07_Windows网络编程/课时01_主机相关网络信息编程.md)
 - [课时02_TCP套接字编程与主机上线实验.md](./07_Windows网络编程/课时02_TCP套接字编程与主机上线实验.md)
@@ -141,7 +142,7 @@
 </details>
 
 <details>
-<summary><b>📦 08_Windows_PE结构</b></summary>
+<summary><b>📦 08_Windows_PE结构</b> (免杀基础，理解文件格式)</summary>
 
 - [课时01_Windows_PE文件基础知识.md](./08_Windows_PE结构/课时01_Windows_PE文件基础知识.md)
 - [课时02_PE文件头解析.md](./08_Windows_PE结构/课时02_PE文件头解析.md)
@@ -154,7 +155,7 @@
 </details>
 
 <details>
-<summary><b>� 09_加密壳</b></summary>
+<summary><b>🔒 09_加密壳</b> (给木马穿上铠甲)</summary>
 
 - [课时01_加密壳原理.md](./09_加密壳/课时01_加密壳原理.md)
 - [课时02_动态获取Kernel32的地址.md](./09_加密壳/课时02_动态获取Kernel32的地址.md)
@@ -167,7 +168,7 @@
 </details>
 
 <details>
-<summary><b>� 10_shellcode开发技术</b></summary>
+<summary><b>💣 10_shellcode开发技术</b> (核心Payload编写)</summary>
 
 - [课时01_shellcode的概念.md](./10_shellcode开发技术/课时01_shellcode的概念.md)
 - [课时02_动态获取kernel32dll地址.md](./10_shellcode开发技术/课时02_动态获取kernel32dll地址.md)
@@ -179,7 +180,7 @@
 </details>
 
 <details>
-<summary><b>� 11_shellcode_loader</b></summary>
+<summary><b>🚀 11_shellcode_loader</b> (加载器与免杀技巧)</summary>
 
 - [课时01_C++内联汇编实现shellcode_loader.md](./11_shellcode_loader/课时01_C%2B%2B内联汇编实现shellcode_loader.md)
 - [课时02_C++函数指针实现shellcode_loader.md](./11_shellcode_loader/课时02_C%2B%2B函数指针实现shellcode_loader.md)
@@ -199,7 +200,7 @@
 </details>
 
 <details>
-<summary><b>�️ 12_远程控制开发基础</b></summary>
+<summary><b>🕹️ 12_远程控制开发基础</b> (手写远控木马功能)</summary>
 
 - [课时01_通信架构与客户端上线功能.md](./12_远程控制开发基础/课时01_通信架构与客户端上线功能.md)
 - [课时02_客户端进程信息获取.md](./12_远程控制开发基础/课时02_客户端进程信息获取.md)
@@ -211,7 +212,7 @@
 </details>
 
 <details>
-<summary><b>�️ 13_安全开发专题</b></summary>
+<summary><b>🛠️ 13_安全开发专题</b> (持久化与间谍功能)</summary>
 
 - [课时01_自启动.md](./13_安全开发专题/课时01_自启动.md)
 - [课时02_自删除.md](./13_安全开发专题/课时02_自删除.md)
@@ -223,7 +224,7 @@
 </details>
 
 <details>
-<summary><b>� 14_Inject专题</b></summary>
+<summary><b>💉 14_Inject专题</b> (进程注入技术)</summary>
 
 - [课时01_远程线程注入.md](./14_Inject专题/课时01_远程线程注入.md)
 - [课时02_劫持进程注入.md](./14_Inject专题/课时02_劫持进程注入.md)
@@ -233,7 +234,7 @@
 </details>
 
 <details>
-<summary><b>🎣 15_HOOK专题</b></summary>
+<summary><b>🎣 15_HOOK专题</b> (API挂钩与拦截)</summary>
 
 - [课时01_InlineHook.md](./15_HOOK专题/课时01_InlineHook.md)
 - [课时02_x64InlineHook.md](./15_HOOK专题/课时02_x64InlineHook.md)
@@ -245,7 +246,7 @@
 </details>
 
 <details>
-<summary><b>�️ 16_Anti_Debug专题</b></summary>
+<summary><b>🕵️ 16_Anti_Debug专题</b> (反调试与反分析)</summary>
 
 - [课时01_IsDebuggerPresent.md](./16_Anti_Debug专题/课时01_IsDebuggerPresent.md)
 - [课时02_自实现IsDebuggerPresent.md](./16_Anti_Debug专题/课时02_自实现IsDebuggerPresent.md)
@@ -279,7 +280,7 @@
 </details>
 
 <details>
-<summary><b>🤖 17_Anti_VM专题</b></summary>
+<summary><b>🤖 17_Anti_VM专题</b> (反虚拟机沙箱)</summary>
 
 - [课时01_通过Mac地址检测虚拟机.md](./17_Anti_VM专题/课时01_通过Mac地址检测虚拟机.md)
 - [课时02_通过进程信息检测虚拟机.md](./17_Anti_VM专题/课时02_通过进程信息检测虚拟机.md)
@@ -292,7 +293,7 @@
 </details>
 
 <details>
-<summary><b>⚔️ 18_CobaltStrike专题</b></summary>
+<summary><b>⚔️ 18_CobaltStrike专题</b> (红队神器使用)</summary>
 
 - [课时01_CobaltStrike的安装与启动.md](./18_CobaltStrike专题/课时01_CobaltStrike的安装与启动.md)
 - [课时02_CobaltStrike界面介绍.md](./18_CobaltStrike专题/课时02_CobaltStrike界面介绍.md)
@@ -300,7 +301,7 @@
 </details>
 
 <details>
-<summary><b>🔑 19_提权专题</b></summary>
+<summary><b>🔑 19_提权专题</b> (从普通用户到System)</summary>
 
 - [课时01_Linux内核漏洞提权.md](./19_提权专题/课时01_Linux内核漏洞提权.md)
 - [课时02_SUID提权.md](./19_提权专题/课时02_SUID提权.md)
@@ -315,7 +316,7 @@
 </details>
 
 <details>
-<summary><b>👻 20_免杀专题</b></summary>
+<summary><b>👻 20_免杀专题</b> (Bypass Antivirus)</summary>
 
 - [课时01_R3进程伪装.md](./20_免杀专题/课时01_R3进程伪装.md)
 - [课时02_栈溢出调用CALL.md](./20_免杀专题/课时02_栈溢出调用CALL.md)
@@ -363,4 +364,4 @@
 ---
 > Generated by StudyTrojan Helper
 
-#网络安全 #黑客技术 #渗透测试 #C语言 #汇编语言 #逆向工程 #内核开发 #免杀 #提权 #程序员 #干货分享 #学习路线
+#免杀 #远控 #网络安全 #黑客技术 #渗透测试 #C语言 #汇编 #内核开发 #Rootkit #红队 #干货
